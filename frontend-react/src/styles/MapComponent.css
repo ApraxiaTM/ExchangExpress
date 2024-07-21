@@ -1,0 +1,16 @@
+.region-buttons {
+    margin-bottom: 20px;
+}
+
+.country-list {
+    margin-top: 20px;
+}
+
+button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.exchange-rate {
+    margin-top: 20px;
+}

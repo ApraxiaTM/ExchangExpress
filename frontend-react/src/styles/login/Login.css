@@ -1,0 +1,62 @@
+.logo-container {
+    /* Add your styles for the logo container here */
+}
+
+.logo {
+    /* Add your styles for the logo image here */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.login-form {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.login-title {
+    text-align: center;
+    color: #5C6BC0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.username-group,
+.password-group {
+    width: 100%;
+}
+
+.username-input,
+.password-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #5C6BC0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #7986CB;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 10px;
+}

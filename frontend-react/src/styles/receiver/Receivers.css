@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fff;
+    padding: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand-text {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.navbar-logo {
+    margin-right: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.receivers-main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 60px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: 600;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.empty-state {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.empty-state-image {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.add-recipient-button, .green-button {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.add-recipient-button:hover, .green-button:hover {
+    background-color: #218838;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Receivers.css */
+
+.receivers-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.search-bar {
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}

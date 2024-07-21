@@ -1,0 +1,83 @@
+.container {
+    padding: 20px;
+}
+
+.currency-today {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.grid-item {
+    background-color: #007bff; /* Bootstrap primary color */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    color: white;
+    text-decoration: none;
+    margin: 15px; /* Add margin to all sides */
+}
+
+.grid-item:hover {
+    background-color: #0056b3; /* Bootstrap primary darker color */
+    transform: scale(1.05);
+    box-shadow: 0px 12px 24px 0px rgba(0,0,0,0.2);
+}
+
+.navbar {
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .dropdown-menu {
+    right: 0;
+}
+
+.navbar-nav .dropdown-menu img {
+    margin-right: 10px;
+}
+
+.nav-dropdown-right {
+    margin-left: auto;
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%; /* Set the width of the scrolling wrapper */
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure the items don't wrap to the next line */
+}
+
+.currency-grid-item {
+    display: inline-block;
+    padding: 10px; /* Add some padding */
+    width: auto; /* Set the width of each grid item to be auto */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    flex: 0 0 auto; /* Ensure the items stay in a row and are not flexible */
+    white-space: normal; /* Ensure text wraps inside the item */
+    border-right: 1px solid #ccc; /* Add a border between items */
+    text-align: center; /* Center-align text and flag */
+}
+
+.currency-grid-item:last-child {
+    border-right: none; /* Remove the border from the last item */
+}
+
+.currency-flag {
+    width: 30px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add some space below the flag */
+}
+
+.wanna-transfer {
+    margin-top: 40px; /* Add space above the "Wanna Transfer?" heading */
+}
